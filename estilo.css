@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+h1{
+    color: rgb(249, 248, 248);
+    text-align: center;
+    font-size: 50px;
+}
+
+body {
+    background-color: #130e1dc7;
+    background: url('sugarmints on Twitter.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+
+}
+
+
+
+.conteiner {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid  #ccc;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.89);
+    
+}
+
+.conteiner h2 {
+    color: rgb(18, 17, 18);
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-style: oblique;
+}
+.form-group {
+    margin-bottom: 20px;
+
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type=text], 
+input[type=email], 
+textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button {
+    padding: 10px 20px;
+    background-color: rgb(74, 13, 54);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #ef0018;
+}
